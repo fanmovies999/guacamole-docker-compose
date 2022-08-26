@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for d in "init drive record data"; do
+for d in "init drive record mariadb mariadb/data mariadb/backup mariadb/socket"; do
  mkdir ./$d
  chmod -R +x ./$d
 done

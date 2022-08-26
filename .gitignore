@@ -1,6 +1,6 @@
 .gitignore
 .env
-data/
+mariadb/
 nginx/ssl/
 init/initdb.sql
 drive/
