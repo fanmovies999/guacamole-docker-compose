@@ -1,4 +1,8 @@
 # Guacamole with docker-compose
+## Original code
+https://github.com/boschkundendienst/guacamole-docker-compose
+
+## Description
 This is a small documentation how to run a fully working **Apache Guacamole (incubating)** instance with docker (docker-compose). The goal of this project is to make it easy to test Guacamole.
 
 ## About Guacamole
