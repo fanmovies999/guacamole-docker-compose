@@ -44,7 +44,7 @@ services:
       MYSQL_PASSWORD: ${MARIADB_PASSWORD}
       MYSQL_USER: guacamole_user
       MYSQL_HOSTNAME: mysql
-      GUACD_HOSTNAME: guacd
+      GUACD_HOSTNAME: ds
     image: guacamole/guacamole
     networks:
     - guacamole_network
